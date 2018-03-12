@@ -146,6 +146,7 @@ $(document).ready(function() {
     // set credit card payment as default payment
     $bitcoinPayment.hide(); 
     $paypalPayment.hide(); 
+    $payment.prop('selectedIndex', 1);
     let currentPaymentOption = $creditCardPayment;
     
     
